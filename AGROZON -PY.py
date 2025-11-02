@@ -1,7 +1,7 @@
 import mysql.connector as sql
 import random
 
-mycon = sql.connect(host='localhost',user='root',passwd='Guru@2007')
+mycon = sql.connect(host='localhost',user='root',passwd='root')
 cursor = mycon.cursor()
 cursor.execute('create database if not exists AGROZON')
 cursor.execute('use agrozon')
